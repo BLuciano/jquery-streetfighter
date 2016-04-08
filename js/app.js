@@ -6,5 +6,16 @@ $(document).ready(function(){
 	.mouseleave(function(){
 		$('.ryu-still').show();
 		$('.ryu-ready').hide();
-	});
+		$('.ryu-throwing').hide();
+		$('.hadouken').hide();
+	})
+	.mousedown(function(){
+		$('.ryu-ready').hide();
+		$('.ryu-throwing').show();
+		$('.hadouken').show();
+	})
+	.mouseup(function(){
+		$('.ryu-ready').show();
+		$('.ryu-throwing').hide();
+	})
 });
