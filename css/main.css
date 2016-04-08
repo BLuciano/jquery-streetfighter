@@ -59,3 +59,26 @@ body{
   background-repeat: no-repeat;
 }
 
+.info{
+	float: left;
+	margin-top: 50px;
+}
+
+.info p{
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: bold;
+	width: 300px;
+	color: #333;
+	font-size: 2.5em;
+	line-height: 1.10em;
+}
+
+.info p:first-child{
+	position: relative;
+	left: -75px;
+}
+.info p:last-child{
+	position: relative;
+	left: 150px;
+}
+
